@@ -69,6 +69,17 @@
   margin: 16px 0px;
 }
 
+.footer {
+  color:#d1c2d3;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: #1c0d1a;
+}
+
 .contact-me > a > button {
   background: #f6821f;
   border-radius: 4px;
