@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "publish": "CLOUDFLARE_ACCOUNT_ID=9c139ec15e689f437d4af6d084093665 npx wrangler pages publish html"
+  },
   "dependencies": {
     "wrangler": "^2.1.13"
   }
