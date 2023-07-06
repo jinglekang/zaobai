@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue",  Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
   margin: auto;
 }
 
@@ -58,7 +58,7 @@
   line-height: 36px;
 }
 
-.header > p {
+.header>p {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -69,18 +69,24 @@
   margin: 16px 0px;
 }
 
+.logo {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
 .footer {
-  color:#d1c2d3;
+  color: #d1c2d3;
   text-align: center;
   height: 30px;
   line-height: 30px;
   width: 100%;
   position: absolute;
   bottom: 0px;
-  background-color:rgba(45, 45, 45, 0.5);
+  background-color: rgba(45, 45, 45, 0.5);
 }
 
-.contact-me > a > button {
+.contact-me>a>button {
   background: #f6821f;
   border-radius: 4px;
   border: none;
@@ -98,15 +104,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
-        background-size: contain;
-        background-position-y: center;
-    }
+  .container {
+    background-size: contain;
+    background-position-y: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
 
-.container {
+  .container {
     background-size: contain;
     background-position-y: center;
   }
